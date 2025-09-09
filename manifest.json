@@ -1,0 +1,71 @@
+{
+  "name": "Expo Tournament - Gaming Platform",
+  "short_name": "Expo Tournament",
+  "description": "The ultimate gaming tournament platform for competitive players",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#e94560",
+  "orientation": "portrait-primary",
+  "categories": ["games", "entertainment", "sports"],
+  "lang": "en",
+  "dir": "ltr",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "uploads/app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "uploads/app-icon-512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "uploads/logo.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "uploads/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "uploads/screenshot-desktop.png", 
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "My Tournaments",
+      "short_name": "Tournaments",
+      "description": "View your tournament history",
+      "url": "/my_tournaments.php",
+      "icons": [{"src": "uploads/logo.png", "sizes": "128x128"}]
+    },
+    {
+      "name": "Wallet",
+      "short_name": "Wallet", 
+      "description": "Manage your wallet",
+      "url": "/wallet.php",
+      "icons": [{"src": "uploads/logo.png", "sizes": "128x128"}]
+    },
+    {
+      "name": "Profile",
+      "short_name": "Profile",
+      "description": "View your profile",
+      "url": "/profile.php", 
+      "icons": [{"src": "uploads/logo.png", "sizes": "128x128"}]
+    }
+  ]
+}

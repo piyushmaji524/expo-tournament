@@ -1,0 +1,52 @@
+🏆 EXPO TOURNAMENT LOGO & APP ICONS 🏆
+
+✅ Logo has been successfully integrated into:
+
+📱 MAIN HEADER (common/header.php):
+   - Size: 40x40 pixels (h-10 w-10)
+   - Style: Rounded corners with shadow
+   - Position: Left side with trophy icon
+   - Fallback: Gracefully hides if missing
+
+🔧 ADMIN HEADER (admin/common/header.php):
+   - Size: 40x40 pixels (h-10 w-10) 
+   - Style: Rounded corners with shadow
+   - Position: Left side with admin shield icon
+   - Path: ../uploads/logo.png
+
+📄 LEGAL PAGES (migrate_legal_pages.php):
+   - Size: 80x80 pixels (h-20 w-20)
+   - Style: Rounded corners with shadow
+   - Position: Centered above page titles
+   - All 7 pages include logo headers
+
+📱 PWA APP DOWNLOAD SYSTEM:
+   - Manifest: manifest.json (PWA configuration)
+   - Service Worker: sw.js (offline functionality)
+   - Install Banner: Auto-appears on compatible devices
+   - Icons needed: app-icon-192.png, app-icon-512.png
+
+🎯 REQUIRED FILES FOR FULL FUNCTIONALITY:
+1. logo.png (128x128px) - Main logo
+2. app-icon-192.png (192x192px) - PWA small icon
+3. app-icon-512.png (512x512px) - PWA large icon
+4. screenshot-mobile.png (390x844px) - App store screenshot
+5. screenshot-desktop.png (1920x1080px) - Desktop screenshot
+
+💡 APP DOWNLOAD FEATURES:
+   ✅ Progressive Web App (PWA) support
+   ✅ Install banner with smart timing
+   ✅ Offline functionality with caching
+   ✅ App shortcuts (Tournaments, Wallet, Profile)
+   ✅ Native app-like experience
+   ✅ Cross-platform compatibility (Android, iOS, Desktop)
+
+🚀 HOW IT WORKS:
+1. Users visit website on mobile/desktop
+2. Browser detects PWA capability
+3. Install banner appears after 1 second
+4. Users can click "Install" to add to home screen
+5. App works offline with cached content
+6. Banner respects user preferences (7-day cooldown)
+
+🎯 READY TO USE: Just add your icon files and users can download as app!

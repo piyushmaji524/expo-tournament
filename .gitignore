@@ -1,0 +1,89 @@
+# Sensitive configuration files
+common/config.php
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Database credentials (if using separate config)
+config/database.php
+
+# Uploaded files (optional - you may want to keep the structure)
+uploads/*.jpg
+uploads/*.png
+uploads/*.gif
+uploads/*.pdf
+uploads/banners/*
+!uploads/.gitkeep
+!uploads/banners/.gitkeep
+
+# Logs
+*.log
+logs/
+error.log
+access.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Backup files
+*.bak
+*.backup
+*.sql.backup
+
+# Cache files
+cache/
+tmp/
+temp/
+
+# Node modules (if you add any frontend build tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Composer (if you add PHP dependencies)
+vendor/
+composer.lock
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Documentation builds
+docs/_build/
+
+# Test coverage
+coverage/
+.coverage
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip

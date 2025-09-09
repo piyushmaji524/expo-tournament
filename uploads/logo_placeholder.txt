@@ -1,0 +1,34 @@
+🏆 EXPO TOURNAMENT LOGO INTEGRATION 🏆
+
+✅ Logo has been successfully integrated into:
+
+📱 MAIN HEADER (common/header.php):
+   - Size: 40x40 pixels (h-10 w-10)
+   - Style: Rounded corners with shadow
+   - Position: Left side with trophy icon
+   - Fallback: Gracefully hides if missing
+
+🔧 ADMIN HEADER (admin/common/header.php):
+   - Size: 40x40 pixels (h-10 w-10) 
+   - Style: Rounded corners with shadow
+   - Position: Left side with admin shield icon
+   - Path: ../uploads/logo.png
+
+📄 LEGAL PAGES (migrate_legal_pages.php):
+   - Size: 80x80 pixels (h-20 w-20)
+   - Style: Rounded corners with shadow
+   - Position: Centered above page titles
+   - All 7 pages include logo headers
+
+🎯 TO ADD YOUR LOGO:
+1. Save your logo as "logo.png" in uploads/ folder
+2. Recommended: Square format (PNG with transparency)
+3. Optimal size: 128x128 pixels minimum
+4. The system will auto-resize and apply styling
+
+💡 CURRENT STYLING:
+   - Headers: h-10 w-10 (40x40px) with rounded-lg shadow-md
+   - Legal Pages: h-20 w-20 (80x80px) with rounded-lg shadow-lg
+   - Error handling: onerror="this.style.display='none'"
+
+🚀 READY TO USE: Just add your logo.png file!
