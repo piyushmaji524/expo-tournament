@@ -1,9 +1,8 @@
 <?php
-// Database configuration
 $host = 'localhost';
-$username = 'u435643473_color';
-$password = 'Piyush@9883826833';
-$database = 'u435643473_color';
+$username = 'your_database_username';
+$password = 'your_database_password';
+$database = 'your_database_name';
 
 $success = false;
 $error = '';
